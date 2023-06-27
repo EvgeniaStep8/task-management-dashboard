@@ -1,0 +1,14 @@
+.button {
+  width: 300px;
+  height: 40px;
+  padding: 10px 0;
+  color: var(--interface-blue-color);
+  text-align: center;
+  cursor: pointer;
+  border: solid 1px var(--interface-light-gray-color);
+  background-color: var(--background-color);
+}
+
+.button:hover {
+  opacity: 0.5;
+}
