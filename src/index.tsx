@@ -1,6 +1,5 @@
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import './app/styles/index.css';
 import App from './app/assets';
 import reportWebVitals from './reportWebVitals';
 

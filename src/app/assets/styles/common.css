@@ -1,9 +1,12 @@
 :root {
   --interface-blue-color: #2a26f0;
+  --interface-green-color: #02b372;
+  --interface-orange-color: #fa6c07;
+  --interface-yellow-color: #fcc708;
   --interface-black-color: #000;
   --interface-light-gray-color: #cccbd6;
   --interface-gray-color: #7c7c82;
   --background-grey-color: #f7f7fa;
-  --background-color: #fff;
+  --background-color: #fcf7f0;
 
 }

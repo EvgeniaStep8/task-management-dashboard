@@ -1,2 +1,7 @@
 @import url('./common.css');
 @import url('../fonts/index.css');
+
+.body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: var(--background-color);
+}
