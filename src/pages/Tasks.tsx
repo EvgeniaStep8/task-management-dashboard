@@ -1,10 +1,20 @@
 import { FC } from 'react';
-import ref from '../images/original-4a79dc0519d1f236b2f3e873146b9f4d.webp';
+import MessageIcon from '../UI/icons/MessageIcon';
+import StatusIcon from '../UI/icons/StatusIcon';
+import ClipIcon from '../UI/icons/ClipIcon';
+import ViewsIcon from '../UI/icons/ViewsIcon';
+import CheckListTaskIcon from '../UI/icons/CheckListTaskIcon';
+import KebabIcon from '../UI/icons/KebabIcon';
 
 const Tasks: FC = () => {
   return (
     <div>
-      <img src={ref} alt='' />
+      <MessageIcon color='gray' />
+      <StatusIcon color='blue' />
+      <ClipIcon color='gray' />
+      <ViewsIcon color='gray' />
+      <CheckListTaskIcon color='gray' />
+      <KebabIcon color='black' />
     </div>
   )
 }

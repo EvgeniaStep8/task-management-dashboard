@@ -6,10 +6,10 @@ const StatusIcon: FC<IIconProps> = ({ color }) => (
     fill={getColor(color)}
     width='16px'
     height='16px'
-    viewBox='0 0 16 16'
+    viewBox='0 0 32 32'
     xmlns='http://www.w3.org/2000/svg'
   >
-    <circle r="10" />
+    <circle cx="16" cy="16" r="16"/>
   </svg>
 );
 
