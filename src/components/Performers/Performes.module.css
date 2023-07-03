@@ -1,0 +1,11 @@
+.performers {
+	display: flex;
+}
+
+.avatar {
+	margin-left: -15px;
+}
+
+.avatar:first-of-type {
+  margin: 0;
+}

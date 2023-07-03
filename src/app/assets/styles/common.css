@@ -1,12 +1,19 @@
 :root {
   --interface-blue-color: #2a26f0;
+  --interface-light-blue-color: #87c0f5;
   --interface-green-color: #02b372;
+  --interface-light-green-color: #a7f2d7;
+  --interface-red-color: #fa2111;
+  --interface-light-red-color: #f78d86;
   --interface-orange-color: #fa6c07;
+  --interface-light-orange-color: #edb791;
   --interface-yellow-color: #fcc708;
+  --interface-light-yellow-color: #f7d96d;
+  --interface-violet-color: #a11bb5;
+  --interface-light-violet-color: #e58df2;
   --interface-black-color: #000;
   --interface-light-gray-color: #cccbd6;
   --interface-gray-color: #7c7c82;
-  --background-grey-color: #f7f7fa;
-  --background-color: #fcf7f0;
-
+  --background-gray-color: #e0e0e0b7;
+  --background-white-color: #faf8f6;
 }

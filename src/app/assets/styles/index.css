@@ -1,7 +1,8 @@
+@import url('./normalize.css');
 @import url('./common.css');
 @import url('../fonts/index.css');
 
-.body {
+body {
   font-family: 'Inter', Arial, sans-serif;
-  background: var(--background-color);
+  background: var(--background-gray-color);
 }

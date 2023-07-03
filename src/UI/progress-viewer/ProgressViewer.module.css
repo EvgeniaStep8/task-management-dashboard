@@ -1,0 +1,19 @@
+.viewer {
+	padding: 5px;
+	display: flex;
+	gap: 8px;
+	cursor: pointer;
+	align-items: center;
+	border-radius: 15px;
+	max-width: 60px;
+	background-color: var(--background-white-color);
+}
+
+.text {
+	margin: 0;
+	padding: 0;
+	color: var(--interface-gray-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+}

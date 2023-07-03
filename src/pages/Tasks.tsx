@@ -1,20 +1,18 @@
 import { FC } from 'react';
-import MessageIcon from '../UI/icons/MessageIcon';
-import StatusIcon from '../UI/icons/StatusIcon';
-import ClipIcon from '../UI/icons/ClipIcon';
-import ViewsIcon from '../UI/icons/ViewsIcon';
-import CheckListTaskIcon from '../UI/icons/CheckListTaskIcon';
-import KebabIcon from '../UI/icons/KebabIcon';
+import styles from './Tasks.module.css';
+import TasksHeader from '../components/TaskHeader/TasksHeader';
+import AddTaskButton from '../UI/buttons/AddTaskButton';
+import Task from '../components/Task/Task';
+import { performers } from '../utils/constants';
+
 
 const Tasks: FC = () => {
   return (
-    <div>
-      <MessageIcon color='gray' />
-      <StatusIcon color='blue' />
-      <ClipIcon color='gray' />
-      <ViewsIcon color='gray' />
-      <CheckListTaskIcon color='gray' />
-      <KebabIcon color='black' />
+    <div className={styles.tasks}>
+      <TasksHeader title='ToDo' color='orange' count={2} />
+      <AddTaskButton />
+      <Task title='Taska' description='Just do it! Every day, every night just do it!' tagTitle='motivation' tagColor='violet' subtasks={6} completedSubtasks={3} performers={performers} views={10} messages={3} files={0} />
+      <Task title='Taska2' description='Just do it! Every day, every night just do it!' tagTitle='design' tagColor='blue' subtasks={2} completedSubtasks={1} performers={performers} views={2} messages={0} files={1} />
     </div>
   )
 }
